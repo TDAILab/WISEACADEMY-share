@@ -3,8 +3,8 @@ image:
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
 ports:
-  - port: 3000
-    onOpen: open-preview
+  - port: 8080
+    onOpen: open-browser
   - port: 8888
     onOpen: open-browser
 
