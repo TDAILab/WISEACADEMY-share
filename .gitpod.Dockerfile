@@ -2,6 +2,4 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN apt update -y && apt upgrade -y && \
-    pip install --upgrade pip && \
-    pip install pipenv
+RUN pip install --upgrade pip && pip install pipenv
